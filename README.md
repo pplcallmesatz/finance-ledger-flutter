@@ -15,7 +15,7 @@ Finance Ledger App is a modern, cross-platform ledger management solution built 
 ## 3. Prerequisites
 - [Flutter](https://flutter.dev/docs/get-started/install) (3.x recommended)
 - Dart SDK (comes with Flutter)
-- The required backend API is provided by the [Finance Ledger API Laravel repository](https://github.com/pplcallmesatz/finance-ledger-web-api-backend/) (replace with your actual repo URL)
+- The required backend API is provided by the [Finance Ledger API Laravel repository](https://github.com/pplcallmesatz/finance-ledger-web-api-backend/) 
 - See [`API_DOCUMENTATION.md`](API_DOCUMENTATION.md) for available endpoints and usage
 
 ## 4. Setup
@@ -47,18 +47,18 @@ flutter pub get
 > **Note:** This app is developed and tested with Flutter. Platform support may depend on your Flutter version and OS setup.
 
 +### 4.5 Building for Release
-+- **Android APK:**
-+  ```sh
-+  flutter build apk --release
-+  ```
-+- **iOS IPA:**
-+  ```sh
-+  flutter build ios --release
-+  ```
-+- **Web:**
-+  ```sh
-+  flutter build web
-+  ```
+- **Android APK:**
+  ```sh
+  flutter build apk --release
+  ```
+- **iOS IPA:**
+  ```sh
+  flutter build ios --release
+  ```
+- **Web:**
+  ```sh
+  flutter build web
+  ```
 
 ## 5. Environment & Configuration
 - API base URL is set in `lib/services/api_service.dart`.
